@@ -1,6 +1,11 @@
-header{
-    background-color: rgb(214, 4, 4);
+
+nav{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0px;
 }
+
 .b{
     background-color: rgb(58, 123, 184);
 }
@@ -27,9 +32,7 @@ header{
 }
 /* tablet */
 @media screen and (min-width: 560px){
-    header{
-        background-color: rgb(33, 182, 41);
-    }
+  
     .b{
         background-color: rgb(153, 179, 155);
     }
@@ -56,9 +59,7 @@ header{
     }
 }
 @media screen and (min-width:760px) and (max-width:960px){
-    header{
-        background-color: rgb(70, 4, 250);
-    }
+   
     .b{
         background-color: rgb(47, 146, 163);
     }
