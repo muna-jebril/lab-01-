@@ -2,6 +2,20 @@
     width: 100%;
     height: 150px;
 }
+header{
+    width: 100%;
+    margin: 0 auto;
+    height: 75px;
+}
+nav{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0px;
+}
+header{
+    background-color: rgb(214, 4, 4);
+}
 .all{
     width: 480px;
     height: 100vh;
@@ -22,6 +36,12 @@
 }
 
 @media screen and (min-width:560px) {
+    header{
+        height: 100px;
+    }
+    header{
+        background-color: rgb(33, 182, 41);
+    }
     .b{
         float: left;
         width: 150px;
@@ -59,6 +79,9 @@
         width: 200px;
         height: 600px;
     }
+    header{
+        background-color: rgb(70, 4, 250);
+    }
     .all{
         float: right;
         width: 760px;
@@ -76,5 +99,8 @@
         clear:both;
         width: 760px;
         height: 150px;
+    }
+    header{
+        height: 100px;
     }
 }
